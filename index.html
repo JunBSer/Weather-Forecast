@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌤 Your Weather 🌧</h1>
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="search-button">Search</button>
+        </div>
+        <div id="weather-result" class="weather-result">
+            <h2 id="city-name">City Name</h2>
+            <img id="weather-icon" src="https://openweathermap.org/img/wn/01d@2x.png" alt="weather-icon" class="weather-icon"> <!-- Default icon -->
+            <p id="temperature">Temperature: --°C</p>
+            <p id="description">Description</p>
+            <p id="humidity">Humidity: --%</p>
+            <p id="wind-speed">Wind Speed: -- m/s</p>
+        </div>
+        <div id="tip-section" class="tip-section">
+            <h2 class="tip-title">Weather Advice</h2>
+            <p id="advice" class="tip-text">Weather advice will appear here.</p>
+        </div>
+        <div class="music-section">
+            <button id="play-music-button">Play Music</button>
+            <input type="range" id="volume-control" min="0" max="1" step="0.1" value="0.5" />
+            <audio id="background-music" src="audio/topPogoda.mp3"></audio>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

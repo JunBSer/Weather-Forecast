@@ -1,0 +1,137 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 60px 0 0; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    height: 100vh; 
+    background: linear-gradient(to bottom, #4facfe, #00f2fe);
+    color: #fff;
+    transition: background 0.5s ease-in-out;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 90%;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffea00;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+}
+
+.search-box {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#city-input {
+    padding: 10px;
+    width: calc(60% - 10px);
+    min-width: 200px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#search-button {
+    padding: 10px;
+    background: #ff6700;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+#search-button:hover {
+    background: #e05800;
+}
+
+.weather-result {
+    margin-top: 20px;
+    color: #fff;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.weather-result p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+}
+
+.advice {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #ffea00;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+}
+
+.tip-section {
+    background-color: rgba(255, 255, 255, 0.2); 
+    border: 1px solid #ffea00; 
+    border-radius: 10px; 
+    padding: 20px; 
+    margin-top: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    transition: background-color 0.3s ease; 
+}
+
+.tip-section:hover {
+    background-color: rgba(255, 255, 255, 0.3); 
+}
+
+.tip-title {
+    font-size: 1.5rem; 
+    color: #ffea00; 
+    margin-bottom: 10px; 
+}
+
+.tip-text {
+    font-size: 1.2rem; 
+    color: #fff; 
+    margin: 0; 
+}
+.music-section {
+    margin-top: 20px; 
+}
+
+#play-music-button {
+    padding: 10px 15px;
+    background: #ff6700;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+#play-music-button:hover {
+    background: #e05800;
+}
+
+#volume-control {
+    width: 100%; 
+    margin-top: 10px; 
+    cursor: pointer;
+}
